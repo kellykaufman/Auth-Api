@@ -1,0 +1,9 @@
+### Users - Create Request
+
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+  { "name": "Barney Dinosaur",
+    "email": "bd@example.com",
+    "password": "iloveyou",
+    "password_confirmation": "iloveyou"} 
